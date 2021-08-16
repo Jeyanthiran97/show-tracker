@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- CDN link Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+	
+	<!-- Custom CSS -->
+	<link href="includes/css/styles.css" rel="stylesheet">
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	<!-- font awsome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>details-ShowTracker</title>
+
+	<!-- internal CSS -->
+	<style>
+		.container {
+			margin-top: 70px;
+			max-width: 60em;
+		}
+	</style>
+  </head>
+  <body>
+	    <!-- navbar start -->
+		<nav class="navbar fixed-top navbar-expand-lg shadow p-0 mb-0 navbar-light bg-light top-nav">
+			<div class="container-fluid">
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+				<a class="navbar-brand" id="top-nav-brand">Show<b>Trackr</b></a>
+	
+			  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				  <li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="add.html">Add</a>
+				  </li>
+				</ul>	
+				<div class="d-grid">
+					<ul class="navbar-nav  mb-2 mb-lg-0">
+						<li class="nav-item">
+						  <a class="nav-link" id="btn-login" href="login.html">Login</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="btn-signup" href="signup.html">Sign up</a>
+						  </li>
+					  </ul>
+				</div>
+			  </div>
+			</div>
+		</nav><!-- end navbar -->
+
+		<!-- Episode Details -->
+		<div class="container">
+			<div class="episode-details">
+				<div class="episode-card shadow">
+					<div class="card mb-3">
+						<div class="row g-0">
+						  <div class="col-md-3">
+							<div class="card ep-card-body">
+								<img src="images/img4.jpg" class="card-img-top" alt="Game of Thrones">
+								<div class="card-body-button">
+								  <a href="login.html">Login to Subscribe</a>
+								</div>
+							  </div>
+						  </div>
+						  <div class="col-md-9">
+							<div class="card-body">
+      							<span style="float:right;"> <label for="heart_5" style= "color: brown; font-size:30px;">&#10084; <span style="font-size: 25px; font-weight: bolder;">9.1</span> </label></span>
+							  <h2 class="card-title fw-bolder">How I Met Your Mother</h2>
+							  <p class="card-text fw-bolder"><i style="font-size:24px; font-weight: bold;" class="fa">&#xf133; </i> saturday <u>10:00PM</u> on HBO</p>
+							  <p class="card-text"><small class="text-muted">A father recounts to his children - through a series of flashbacks - the journey he and his four best friends took leading up to him meeting their mother</small></p>
+							</div>
+						  </div>
+						</div>
+					</div>
+				</div>
+		
+				<div class="episode-message">
+					<div class="alert alert-info opacity-75" role="alert" style="color: black;">
+						The next episode starts in 2 months.
+					  </div>
+				</div>
+		
+				<div class="">
+					<div class="add-show">
+						<div class="add-shadow shadow">
+							<h6 class="fw-bold opacity-75 shadow-none p-2 border-bottom">&#127916; EPISODES</h6>
+						</div>
+						
+						<div class="row">
+							<div class="col-1">
+								<div class="d-flex"  style="height: 75%;">
+									<div class="vr"></div>
+								  </div>
+							</div>
+							<div class="col-11">
+								<h5 class="fw-bolder">How I Met Your Mother <small class="fs-6 text-muted">Seson 0, Episode 1</small></h5>
+								<p><i style="font-size:15px; margin-top:8px;" class="fa"> &#xf017; 12/5/10 5:30 AM <br>
+								<br>A short look into the film-making process for the production How I Met Your Mother</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div><!-- End Episode Details -->
+
+
+<!-- repeat Page Content -->
+<div class="" id="mid-navbar">
+	<div class="border-0 shadow my-5">
+		<!-- card navbar -->
+		<nav class="navbar shadow p-1 mb-2 navbar-light bg-light sticky-mid">
+			<div class="container-fluid">
+			<a href="#mid-navbar" class="navbar-brand fw-bold">TOP 12 SHOWS</a>
+			<form class="d-flex">
+				<input class="search-noborder" type="search" placeholder="Search..." aria-label="Search">
+			</form>
+			</div>
+		</nav><!-- End card navbar -->
+
+		<div class="card-body p-1">
+			
+			<!-- content card-->
+			<div class="row row-cols-2 row-cols-sm-4 row-cols-md-6"><!-- 1st row -->
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/img1.jpg" class="card-img-top" alt="Game of Thrones"/>
+						<div class="card-footer">
+							<h5 class="card-title">Game of Thrones</h5>
+							<small class="text-muted"><a href="series1.html" class="stretched-link">Episodes: 84</a></small>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/img2.jpeg" class="card-img-top" alt="Breaking Bad"/>
+						<div class="card-footer">
+							<h5 class="card-title">Breaking Bad</h5>
+							<small class="text-muted"><a href="series2.html" class="stretched-link">Episodes: 79</a></small>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/img3.jpg" class="card-img-top" alt="Dexter"/>
+						<div class="card-footer">
+							<h5 class="card-title">Dexter</h5>
+							<small class="text-muted"><a href="series3.html" class="stretched-link">Episodes: 125</a></small>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/img4.jpg" class="card-img-top" alt="How I Met Your Mother"/>
+						<div class="card-footer">
+							<h5 class="card-title">How I Met Your Mother</h5>
+							<small class="text-muted"><a href="series4.html" class="stretched-link">Episodes: 219</a></small>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/img5.jpg" class="card-img-top" alt="The Twilight Saga: New Moon"/>
+						<div class="card-footer">
+							<h5 class="card-title">New Moon</h5>
+							<small class="text-muted">Episodes: 84</small>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/img6.jpg" class="card-img-top" alt="Harry Potter and the Deathly Hallows"/>
+						<div class="card-footer">
+							<h5 class="card-title">Harry Potter</h5>
+							<small class="text-muted">Episodes: 84</small>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/img7.jpg" class="card-img-top" alt="X-Men: The Last Stand"/>
+						<div class="card-footer">
+							<h5 class="card-title">X-Men: The Last Stand</h5>
+							<small class="text-muted">Episodes: 84</small>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/img8.jpg" class="card-img-top" alt="Ice Age"/>
+						<div class="card-footer">
+							<h5 class="card-title">Ice Age</h5>
+							<small class="text-muted">Episodes: 84</small>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/img9.jpg" class="card-img-top" alt="Mission: Impossible - Ghost Protocol"/>
+						<div class="card-footer">
+							<h5 class="card-title">Ghost Protocol</h5>
+							<small class="text-muted">Episodes: 84</small>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/img10.jpg" class="card-img-top" alt="The Mummy"/>
+						<div class="card-footer">
+							<h5 class="card-title">The Mummy</h5>
+							<small class="text-muted">Episodes: 84</small>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/img11.jpg" class="card-img-top" alt="Toy Story 4"/>
+						<div class="card-footer">
+							<h5 class="card-title">Toy Story 4</h5>
+							<small class="text-muted">Episodes: 84</small>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/img12.jpg" class="card-img-top" alt="Star Wars: Episode II - Attack of the Clones"/>
+						<div class="card-footer">
+							<h5 class="card-title">Star Wars</h5>
+							<small class="text-muted">Episodes: 84</small>
+						</div>
+					</div>
+				</div>
+			<!-- End content card-->
+		</div>
+	</div>
+ </div><!-- End repeat Page Content -->
+
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+  </body>
+</html>

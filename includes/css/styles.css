@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(216, 218, 228);
+
+  }
+
+/*--------------------------------------------------------------
+# Top navbar
+--------------------------------------------------------------*/
+.top-nav a {
+  color: black;
+}
+
+.top-nav a:hover {
+  background-color: rgba(173, 173, 173, 0.123);
+  border-style: dotted;
+  border-radius: 5%;
+  border-width: 1px;
+  color: black;
+  font-weight: bold;
+}
+
+/* top navbar brand holder */
+#top-nav-brand{
+  border-style: none;
+  font-weight: normal;
+  background-color: rgb(240, 224, 84);
+  margin-left: -15px;
+  margin-right: 0px;
+  padding: 5px 10px;
+}   
+
+
+
+/*--------------------------------------------------------------
+# filtering option
+--------------------------------------------------------------*/
+/* filter by movie type */
+.filter-type-bar {
+  display: block;
+  margin: auto;
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.filter-type-bar span {
+  color: black;
+}
+
+.filter-letter-bar {
+  text-align: center;
+  padding: 5px 0;
+
+}
+.filter-letter-bar li {
+  display: inline;
+  text-decoration: none;
+  padding: 5px;
+}
+.filter-letter-bar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.bg-filter {
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: -20px;
+  padding: 50px;
+}
+
+
+/*--------------------------------------------------------------
+# cart content
+--------------------------------------------------------------*/
+  /* card navbar sticky position */
+  .sticky-mid {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 38px;
+    z-index: 1020;
+  }
+
+  /* card navbar seach option */
+  .search-noborder{
+    font-size: 1.2em;
+    padding: 5epx;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+  }
+
+
+  /* card */
+  .my-5 {
+    background-color: white;
+  }
+
+  .card {
+    border-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .col {
+    margin-bottom: 30px;
+  }
+
+  .card-img-top {
+    border-radius: 2%;
+  }
+
+  .card-footer {
+    text-align: center;
+    background-color: white;
+    border-style: none;
+  }
+
+  .card-footer h5{
+    margin: -5px auto;
+  }
+
+  small a {
+    text-decoration: none;
+    color: gray;
+  }
+
+
+/*--------------------------------------------------------------
+# Add section
+--------------------------------------------------------------*/
+.add-show {
+  background-color: white;
+  box-shadow: inset;
+  padding: 1em;
+}
+
+.add-shadow {
+  margin: -16px;
+  margin-bottom: 1.5em;
+  padding: 0;
+  stroke: black;
+  stroke-width: 2px;
+  background-color: rgba(167, 166, 166, 0.185);
+}
+
+.form-control {
+  border-radius: 0;
+  /* border-color: gray; */
+}
+
+
+/*--------------------------------------------------------------
+# Episode Details
+--------------------------------------------------------------*/
+ .ep-card-body img {
+  margin-top: 10px;
+ }
+
+ .episode-message {
+   border-width: 2px;
+   border-style: solid;
+   border-color: rgba(115, 204, 231, 0.479);
+   border-radius: 0%;
+   border-bottom: 0;
+   margin-top: 20px;
+ }
+
+ .card-body-button{
+   background-color: rgba(57, 57, 199, 0.918);
+   color: white;
+   margin: 15px 0;
+   text-align: center;
+   padding: .4em;
+   font-size: large;
+ }
+ .card-body-button a {
+  color: white;
+  text-decoration: none;
+  padding-top: 100px;
+}
+
+/*--------------------------------------------------------------
+# vr
+--------------------------------------------------------------*/
+.vr {
+  border: 3px solid black;
+  background-color: black;
+  opacity: 80%;
+  margin-left: 25px;
+}
+
+
+/*--------------------------------------------------------------
+# Form Styles
+--------------------------------------------------------------*/
+.form {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+.form a {
+  text-decoration: none;
+  color: black;
+}
+
+/* form buttons */
+.form button {
+  outline: 0;
+  width:100%;
+  border: 0;
+  padding: .8em;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 15px 0 15px;
+}
+
+
+/* hr diveider */
+.form .divider {
+  width:400px;
+  text-align:center;
+}
+.divider hr {
+  margin-left:auto;
+  margin-right:auto;
+  width:40%;
+}
+.left {
+  float:left;
+}
+.right {
+  float:right;
+}
+
+/* Login Bottom button */
+.form .fb-button {
+  background: #3417b6;
+  margin-bottom: 0;
+}
+.form .bottom-button i {
+  position: absolute;
+  color: white;
+}
+.form .google-button {
+  background: #da1d36;
+}
+.form .bottom-icon {
+  padding: 30px;
+  margin-left: 60px;
+  size: 10px;
+}
+
